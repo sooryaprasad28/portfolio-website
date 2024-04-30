@@ -1,0 +1,22 @@
+name: Portfolio Website push to S3
+run-name: ${{ github.actor }} is running this GitHub Actions pipeline for Portfolio🚀
+on: [push]
+jobs:
+  push-to-s3:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
+      - name: Run npm install
+        run: npm install
+      - name: Run npm build
+        run: npm run build
+      - name: List the directories
+        run: ls
+      - name: Upload to S3
+        uses: jakejarvis/s3-sync-action@master
+        env:
+          SOURCE_DIR: build/
+          AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
