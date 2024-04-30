@@ -96,7 +96,8 @@ function App() {
   return (
     <div>
       {/* header design */}
-      <a href="#" className="logo">Portfolio.<span className="animate" style={{'--i':1}}></span></a>
+    <a href="/home" className="logo">Portfolio.<span className="animate" style={{'--i':1}}></span></a>
+      // <a href="#" className="logo">Portfolio.<span className="animate" style={{'--i':1}}></span></a>
       <header className={`header ${menuOpen ? 'active' : ''}`}>
         <div className={`bx bx-menu ${menuOpen ? 'bx-x' : ''}`} id="menu-icon" onClick={toggleMenu}><span className="animate" style={{'--i':2}}></span></div>
         <nav className="navbar">
