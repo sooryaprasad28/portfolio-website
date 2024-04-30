@@ -97,6 +97,8 @@ function App() {
   return (
     <div>
       {/* header design */}
+      {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+      <a href="#">Link</a>
       <header className={`header ${menuOpen ? 'active' : ''}`}>
         <a href="#" className="logo">Portfolio.<span className="animate" style={{'--i':1}}></span></a>
         <div className={`bx bx-menu ${menuOpen ? 'bx-x' : ''}`} id="menu-icon" onClick={toggleMenu}><span className="animate" style={{'--i':2}}></span></div>
@@ -324,7 +326,10 @@ function App() {
         <div className="footer-text">
           <p>Copyright &copy; 2024 | Designed and Maintenance by Soorya Prasad  | All Rights Reserved</p>
           <span className="animate scroll" style={{'--i':1}}></span>
+        {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+        <a href="#">Link</a>
         </div>
+    
         <div className="footer-iconTop">
           <a href="#"><i className='bx bx-up-arrow-alt'></i></a>
           <span className="animate scroll" style={{'--i':3}}></span>
