@@ -326,8 +326,7 @@ function App() {
         <div className="footer-text">
           <p>Copyright &copy; 2024 | Designed and Maintenance by Soorya Prasad  | All Rights Reserved</p>
           <span className="animate scroll" style={{'--i':1}}></span>
-        {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-        <a href="#">Link</a>
+        
         </div>
     
         <div className="footer-iconTop">
@@ -338,3 +337,4 @@ function App() {
     </div>
   );
 }
+export default App;
