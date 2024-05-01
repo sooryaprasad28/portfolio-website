@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 import Images from './Images';
 import 'boxicons/css/boxicons.min.css';
-
+import Resume from './resume/Resume.pdf';
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -128,6 +128,7 @@ function App() {
           <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJqWhHKhvxxxSDrbqpvHJbCbzGwQLfbHWdGrKpkTGWRknLSQzkVXCxWCjZdvmdtbVvNZJBV"><i className='bx bxl-gmail'></i></a>
           <a href="https://www.linkedin.com/in/soorya-prasad-s/"><i className='bx bxl-linkedin'></i></a>
           <a href="https://www.github.com/sooryaprasad28/"><i className='bx bxl-github'></i></a>
+          <a href={Resume} download="Soorya Prasad.pdf"><i className='bx bx-cloud-download'></i></a>
           <span className="animate" style={{'--i':6}}></span>
         </div>
         <div className="home-imgHover">
