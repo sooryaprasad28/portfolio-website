@@ -117,7 +117,7 @@ function App() {
         <div className="home-content">
           <h1>Hi, I'm <span>Soorya Prasad</span><span className="animate" style={{'--i':2}}></span></h1>
           <div className="text-animate">
-            <h3>Cloud Computing /SDE</h3>
+            <h3>Cloud Computing/SDE</h3>
             <span className="animate" style={{'--i':3}}></span>
           </div>
           <p>As an aspiring Cloud Engineer, I am eager to contribute my technical expertise to a challenging work environment.<br />With a passion for continuous learning, I am ready to leverage my engineering background and dedication to enhance the innovation and success.
