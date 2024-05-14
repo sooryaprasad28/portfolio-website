@@ -120,12 +120,12 @@ function App() {
             <h3>Cloud Computing/ SDE</h3>
             <span className="animate" style={{'--i':3}}></span>
           </div>
-          <p>As an aspiring Cloud Engineer, I am eager to contribute my technical expertise to a challenging work environment.<br />With a passion for continuous learning, I am ready to leverage my engineering background and dedication to enhance the innovation and success.
+          <p>As an aspiring Engineer, I am eager to contribute my technical expertise to a challenging work environment.<br />With a passion for continuous learning, I am ready to leverage my engineering background and dedication to enhance the innovation and success.
             <span className="animate" style={{'--i':4}}></span>
           </p>
         </div>
         <div className="home-sci">
-          <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJqWhHKhvxxxSDrbqpvHJbCbzGwQLfbHWdGrKpkTGWRknLSQzkVXCxWCjZdvmdtbVvNZJBV"><i className='bx bxl-gmail'></i></a>
+          <a href="mailto:sooryaprasads28@gmail.com"><i className='bx bxl-gmail'></i></a>
           <a href="https://www.linkedin.com/in/soorya-prasad-s/"><i className='bx bxl-linkedin'></i></a>
           <a href="https://www.github.com/sooryaprasad28/"><i className='bx bxl-github'></i></a>
           <a href={Resume} download="Soorya Prasad.pdf"><i className='bx bx-cloud-download'></i></a>
