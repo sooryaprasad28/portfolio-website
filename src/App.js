@@ -120,7 +120,7 @@ function App() {
             <h3>Cloud Computing/ SDE</h3>
             <span className="animate" style={{'--i':3}}></span>
           </div>
-          <p>As an aspiring Engineer, I am eager to contribute my technical expertise to a challenging work environment.<br />With a passion for continuous learning, I am ready to leverage my engineering background and dedication to enhance the innovation and success.
+          <p>As an aspiring Engineer, I am eager to contribute my technical expertise <br/>to a challenging work environment. With a passion for continuous<br/> learning, I am ready to leverage my engineering background and dedication to enhance the innovation and success.
             <span className="animate" style={{'--i':4}}></span>
           </p>
         </div>
